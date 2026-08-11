@@ -28,8 +28,10 @@ This skill is a practical writing aid. It does not certify compliance with ASD-S
 ### Be direct and concise
 
 - Prefer sentences under 30 words. Split longer sentences when they contain more than one idea.
+- Use a stricter target for technical text: no more than 20 words for a procedure and 25 words for descriptive text.
 - Put one topic or action in each sentence. Use one action per procedural step.
 - Use the active voice and name the actor: “The service writes the file,” not “The file is written.”
+- Prefer simple present, past, and future forms. Avoid stacked auxiliary verbs and perfect tenses when they add ambiguity, but preserve a tense that carries required meaning.
 - Lead with the answer. For direct questions, answer with `yes`, `no`, a number, or `I don't know; I will follow up by [date].`
 - Remove throat-clearing, repetition, inflated phrasing, and unnecessary background.
 
@@ -64,12 +66,15 @@ If the data is unavailable, write “The data is not available” and identify t
 
 - Use common words and one term for one concept. Do not vary wording for style when consistency improves precision.
 - Avoid idioms, metaphors, slang, buzzwords, noun piles, unnecessary nominalizations, and abstract wording.
+- Keep noun clusters short. Rewrite a noun phrase with more than three stacked modifiers.
 - Prefer a concrete verb: “decide” instead of “make a decision”; “configure” instead of “perform configuration.”
 - Keep technical terms when they are necessary, but explain them at first use.
 - Expand an acronym on first use, then use the acronym consistently: “non-disclosure agreement (NDA).” Avoid an acronym when the short form is not needed.
 - Resolve pronouns and references. Name the object instead of using “it,” “this,” “that,” or “they” when the reference could be unclear.
+- Do not omit subjects, verbs, articles, or other words needed to make the sentence unambiguous.
 - Avoid ambiguous words such as “may,” “should,” “some,” “appropriate,” “quickly,” and “as needed” unless their meaning is defined.
 - Use exact dates, times, units, and time zones when timing matters.
+- Keep each paragraph on one topic. Use a numbered or bulleted list for three or more steps, conditions, or items.
 
 ### Write procedures and requirements clearly
 
@@ -99,6 +104,8 @@ Before delivering the text, check:
 
 When rewriting, provide the revised text first. If useful, follow it with a short “Changes made” note that names only material changes, such as quantified claims, defined terms, removed ambiguity, or unresolved data gaps.
 
+When the user asks specifically for an STE review, include a concise before/after table. Name the rule or ambiguity that each changed sentence addressed. Do not force a change when the original already preserves the required meaning.
+
 For an unanswered question, use this format:
 
 > **Answer:** [Yes / No / number / I don't know]
@@ -112,5 +119,6 @@ The Amazon principles in this skill are based on the user-provided “Write Like
 - https://www.asd-ste100.org/
 - https://www.asd-ste100.org/about_STE.html
 - https://www.asd-ste100.org/STE_faq.html
+- Community companion skill: https://github.com/danyuchn/asd-ste100-skill
 
 Do not claim that a document is STE-compliant based only on this skill or on a readability score.
