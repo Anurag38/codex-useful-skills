@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clean Code"
+  short_description: "Polish code with local style"
+  default_prompt: "Use $clean to polish this diff with KISS, DRY, and the repository’s local style."
