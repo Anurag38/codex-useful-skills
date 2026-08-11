@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon Writing"
+  short_description: "Write concise, objective technical prose"
+  default_prompt: "Use $amazon-writing-skill to rewrite this text for clarity, precision, and technical simplicity."
